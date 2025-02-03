@@ -21,3 +21,10 @@ The playlist data is stored in `src/data/playlists.json`. It includes a list of 
 ### Expected time to complete
 
 Plan on spending 2-4 hours to complete this exercise.
+
+## Attribution
+
+This project includes music from the following albums:
+
+- **"Deep House"** by _Nul Tiel Records_ is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- **"Neither and Both"** by _Brylie Christopher Oxley_ is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
