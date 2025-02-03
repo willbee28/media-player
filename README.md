@@ -16,7 +16,7 @@ We are looking for a final product that is polished and tasteful.
 
 ### Playlist data
 
-The playlist data is stored in `src/data/playlist.json`. It includes a list of audio files some associated metadata.
+The playlist data is stored in `src/data/playlists.json`. It includes a list of audio files some associated metadata.
 
 ### Expected time to complete
 
