@@ -1,28 +1,33 @@
-# Linear media player
+# Linear Media Player
 
-### Overview
+Hey, thanks for taking the time to work on this exercise. We're excited to see what you come up with –
+the goal is to create an audio player for playing a predefined playlist of audio files. Think of it
+like a stripped-down version of Spotify or the classic Winamp.
 
-Create a media player for playing a playlist of audio files.
+### Getting started
 
-### Instructions
+Fork this repo and submit a URL to your repo upon completion, you can use `npm` to install the dependencies and
+run the basic React project. Feel free to add any additional libraries or frameworks you need.
 
-Fork this repo and submit a URL to your repo upon completion.
+```bash
+npm install
+npm run dev
+```
 
 ### Requirements
 
-You are going to be implementing a media player that can play a playlist of audio files, display info on the currently playing track and supporting basic functionality like play/pause, next track, etc. This is intentionally left vague to allow you to take this in a direction that you find interesting.
-
-We are looking for a final product that is polished and tasteful.
-
-### Playlist data
-
-The playlist data is stored in `src/data/playlists.json`. It includes a list of audio files some associated metadata.
-
-### Expected time to complete
+We'd like to see a working media player that can play through a playlist of audio files (included), display info on the
+currently playing track and supporting basic functionality like play/pause, next track, etc. Beyond that, feel free to get
+creative with the design and functionality.
 
 Plan on spending 2-4 hours to complete this exercise.
 
-## Attribution
+### Playlist data
+
+The playlist data is stored in `src/data/playlists.json`. It includes a list of audio files and some associated metadata,
+you can import the json file directly with no need for network requests.
+
+### Attribution
 
 This project includes music from the following albums:
 
