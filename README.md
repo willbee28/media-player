@@ -6,8 +6,11 @@ like a stripped-down version of Spotify or the classic Winamp.
 
 ### Getting started
 
-Fork this repo and submit a URL to your repo upon completion, you can use `npm` to install the dependencies and
-run the basic React project. Feel free to add any additional libraries or frameworks you need.
+Clone this repo and submit a URL to your copied repo upon completion, forking is unfortunately not possible. If you would 
+prefer to submit a private repo then add `@delashum` and `@tommoor` with read permissions.
+
+You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries 
+or frameworks you need.
 
 ```bash
 npm install
