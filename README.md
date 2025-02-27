@@ -6,8 +6,8 @@ like a stripped-down version of Spotify or the classic Winamp.
 
 ### Getting started
 
-Clone this repo and submit a URL to your copied repo upon completion, forking is unfortunately not possible. If you would 
-prefer to submit a private repo then add `@delashum` and `@tommoor` with read permissions.
+Clone this repo which was created _just for you_, make it yours and let us know once the project is complete by pushing
+your commits and replying through email. 
 
 You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries 
 or frameworks you need.
@@ -24,6 +24,8 @@ currently playing track and supporting basic functionality like play/pause, next
 creative with the design and functionality.
 
 Plan on spending 2-4 hours to complete this exercise.
+
+Please update this README to include a screenshot of the completed exercise at the top.
 
 ### Playlist data
 
