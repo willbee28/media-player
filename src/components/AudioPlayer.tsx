@@ -161,11 +161,15 @@ const AudioPlayer = ({
       </audio>
       <div className="fixed bottom-0 w-11/12 bg-gray-700 rounded-sm flex flex-col items-center mb-4 p-4 gap-1">
         <div className="grid grid-cols-12 w-full">
-          <div className="col-span-2 flex flex-col justify-center ml-4">
-            <div className="font-medium">{trackName}</div>
-            <div className="font-light">{artistName}</div>
+          <div className="sm:col-span-2 col-span-12 sm:mb-0 mb-3 flex flex-col justify-center ml-4">
+            <div className="font-medium sm:block flex justify-center">
+              {trackName}
+            </div>
+            <div className="font-light sm:block flex justify-center">
+              {artistName}
+            </div>
           </div>
-          <div className="col-span-10 gap-2 flex flex-col">
+          <div className="sm:col-span-10 col-span-12 gap-2 flex flex-col">
             <div className="flex gap-3 justify-center">
               <Button onClick={handlePrevClick} className="rounded-full w-9">
                 <TbPlayerSkipBack />

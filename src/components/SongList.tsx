@@ -32,7 +32,7 @@ function SongList({
       {playlist.tracks.map((song, index) => {
         return (
           <div
-            className="grid grid-cols-3 pl-2 h-12 border-b-2 border-gray-500 cursor-pointer text-gray-200 hover:bg-gray-700 items-center "
+            className="grid md:grid-cols-3 pl-2 h-12 border-b-2 border-gray-500 cursor-pointer text-gray-200 hover:bg-gray-700 items-center "
             key={song.name}
             onClick={() => {
               handleSongSelect(index);
@@ -44,8 +44,10 @@ function SongList({
             >
               {song.name}
             </div>
-            <div className="flex justify-center">{playlist["artist:"]}</div>
-            <div className="flex justify-end pr-4">
+            <div className="md:flex justify-center hidden">
+              {playlist["artist:"]}
+            </div>
+            <div className="sm:flex justify-end pr-4 hidden">
               {secondsToMinutes(song.duration)}
             </div>
           </div>
