@@ -147,12 +147,6 @@ const AudioPlayer = ({
     }
   }, [songSelectedIndex]);
 
-  // update song duration and display in state when it becomes available
-  useEffect(() => {
-    if (audioRef.current?.duration)
-      setSongDuration(secondsToMinutes(Math.round(audioRef.current.duration)));
-  }, [audioRef.current?.duration]);
-
   return (
     <div className="">
       <audio ref={audioRef} onTimeUpdate={handleTimeUpdate}>
