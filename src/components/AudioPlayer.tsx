@@ -179,10 +179,10 @@ const AudioPlayer = ({
               </Button>
             </div>
             <div className="grid grid-cols-12">
-              <div className="col-span-1 flex justify-center">
+              <div className="sm:col-span-1 col-span-2 flex justify-center">
                 {progressInTime}
               </div>
-              <div className="col-span-10 flex justify-center">
+              <div className="sm:col-span-10 col-span-8 flex justify-center">
                 <Slider
                   value={[progress]}
                   onValueChange={(number) => handleSeek(number[0])}
@@ -192,7 +192,7 @@ const AudioPlayer = ({
                   onValueCommit={(number) => handleSeekEnd(number[0])}
                 />
               </div>
-              <div className="col-span-1 flex justify-center">
+              <div className="sm:col-span-1 col-span-2 flex justify-center">
                 {songDuration}
               </div>
             </div>
