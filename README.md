@@ -6,9 +6,6 @@ like a stripped-down version of Spotify or the classic Winamp.
 
 ### Getting started
 
-Clone this repo which was created _just for you_, make it yours and let us know once the project is complete by pushing
-your commits and replying through email. 
-
 You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries 
 or frameworks you need.
 
@@ -16,16 +13,6 @@ or frameworks you need.
 npm install
 npm run dev
 ```
-
-### Requirements
-
-We'd like to see a working media player that can play through a playlist of audio files (included), display info on the
-currently playing track and supporting basic functionality like play/pause, next track, etc. Beyond that, feel free to get
-creative with the design and functionality.
-
-Plan on spending 2-4 hours to complete this exercise.
-
-Please update this README to include a screenshot of the completed exercise at the top.
 
 ### Playlist data
 
